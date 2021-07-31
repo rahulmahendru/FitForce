@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+    <!-- Header Section -->
+    <head>
+        <meta charset="UTF-8">
+
+        <!-- Responsive Viewport -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>FitForce-Gallery</title>
+
+        <!-- Favicon -->
+        <link rel="icon" href="../images/favicon.jpg">
+
+        <!-- CSS Link -->
+        <link rel="stylesheet" href="../css/index.css" id="theme">
+        <link rel="stylesheet" href="../css/gallery.css" id="page-theme">
+
+        <!-- Icons Link -->
+        <script src="https://kit.fontawesome.com/01de70e9b1.js" crossorigin="anonymous"></script>
+
+    </head>
+
+    <!-- Body Section -->
+    <body>
+
+        <!-- Header Section -->
+        <div class="header-container">
+            
+            <!-- Title -->
+            <div class="title-container">
+                <a href="../index.html">
+                    <img src="../images/logo.jpg" class="logo-image" alt="FitForce title image">
+                </a>
+            </div>
+            
+            <!-- Navigation Menu -->
+            <div class="navbar-container">
+                <nav>
+                    <a href="../index.html" class="nav-item">Home</a>
+                    <a href="./me.html" class="nav-item">About Me</a>
+                    <a href="./workouts.html" class="nav-item">Workouts</a>
+                    <a href="./nutrition.html" class="nav-item">Nutrition</a>
+                    <a href="./gallery.html" class="nav-item">Gallery</a>
+                </nav>
+            </div>
+
+            <!-- Change Theme -->
+            <div class="themeToggle-container">
+                <button class="toggle-button">Dark Mode</button>
+            </div>
+
+        </div>
+
+        <!-- Main Page -->
+        <div class="main-page-container">
+
+            <!-- Heading -->
+            <h1>FitForce Gallery</h1>
+
+            <!-- Gallery -->
+            <!-- Code for design adapted from 
+                https://www.w3schools.com/howto/howto_css_image_grid_responsive.asp -->
+            <div class="gallery">
+
+                <!-- Column 1 of images -->
+                <div class="column">
+                    <div class="image-box" onclick="showImage(this)">
+                        <img src="../images/gallery1.png" alt="Chocolate Oats Pancakes with Banana">
+                        <p class="imgtext">Chocolate Oats Pancakes with Banana</p>
+                    </div>
+                    <div class="image-box" onclick="showImage(this)">
+                        <img src="../images/gallery5.png" alt="Shoes and Headphones">
+                        <p class="imgtext">Shoes and Headphones (Workout Essentials)</p>
+                    </div>
+                    <div class="image-box" onclick="showImage(this)">
+                        <img src="../images/gallery3.png" alt="Chickpea Salad">
+                        <p class="imgtext">Chickpea Salad</p>
+                    </div>
+                    <div class="image-box" onclick="showImage(this)">
+                        <img src="../images/gallery12.png" alt="Cable Machine - Weights on display">
+                        <p class="imgtext">Cable Machine - Weights on display </p>
+                    </div>
+                </div>
+
+                <!-- Column 2 of images-->
+                <div class="column">
+                    <div class="image-box" onclick="showImage(this)">
+                        <img src="../images/gallery6.png" alt="Punching Bag and Dumbells">
+                        <p class="imgtext">Punching Bag and Dumbells</p>
+                    </div>
+                    <div class="image-box" onclick="showImage(this)">
+                        <img src="../images/gallery2.png" alt="Apple & Mango">
+                        <p class="imgtext">Apple & Mango</p>
+                    </div>
+                    <div class="image-box" onclick="showImage(this)">
+                        <img src="../images/gallery8.png" alt="Tricep Pose">
+                        <p class="imgtext">Tricep Pose</p>
+                    </div>
+                    <div class="image-box" onclick="showImage(this)">
+                        <img src="../images/gallery4.png" alt="Whey Protein and BCAA supplements">
+                        <p class="imgtext">Whey Protein and BCAA supplements</p>
+                    </div>
+                </div>
+
+                <!-- Column 3 of images-->
+                <div class="column">
+                    <div class="image-box" onclick="showImage(this)">
+                        <img src="../images/gallery10.png" alt="Pull Up">
+                        <p class="imgtext">Pull Up</p>
+                    </div>
+                    <div class="image-box" onclick="showImage(this)">
+                        <img src="../images/gallery9.png" alt="Watermelon">
+                        <p class="imgtext">Watermelon</p>
+                    </div>
+                    <div class="image-box" onclick="showImage(this)">
+                        <img src="../images/gallery7.png" alt="Dumbbells">
+                        <p class="imgtext">Dumbbells</p>
+                    </div>
+                    <div class="image-box" onclick="showImage(this)">
+                        <img src="../images/gallery11.png" alt="Boxing bag">
+                        <p class="imgtext">Boxing bag</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Image Modal -->
+            <!-- Used for code  adaptation 
+                https://www.w3schools.com/howto/howto_css_modal_images.asp -->
+            <div class="modal" id="gallery-modal">
+                <!-- Close Button -->
+                <span class="close">&times;</span>
+
+                <!-- Modal Image -->
+                <img src="../images/gallery1.png" alt="Selected Image" class="modal-content" id="modal-img">
+
+                <!-- Caption -->
+                <p id="captionText" class="caption-text"></p>
+            </div>
+
+
+        </div>
+
+        <!-- Footer Container -->
+        <div class="footer-container">
+            <div class="flex-container footer">
+                <!-- Footer Menu -->
+                <table class="footer-table" id="table-footer">
+                    <tr>
+                        <td><a href="./feedback.html" class="fnav-item">Feedback</a></td>
+                        <td><a href="https://www.instagram.com/bodybuildinghubb/" class="fnav-item" target="_blank"><i class="fab fa-instagram fa-lg white"></i>Instagram</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="./sitemap.html" class="fnav-item">Site Map</a></td>
+                        <td><a href="https://www.facebook.com/Health" class="fnav-item" target="_blank"><i class="fab fa-facebook fa-lg white"></i>Facebook</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="./sourcelog.html" class="fnav-item">Source Log</a></td>
+                        <td><a href="https://in.pinterest.com/gymguider/_created/" class="fnav-item" target="_blank"><i class="fab fa-pinterest fa-lg white"></i>Pinterest</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="./about.html" class="fnav-item">About My Site</a></td>
+                        <td></td>
+                    </tr>
+                </table>
+
+                <!-- Footer Logo  -->
+                <img src="../images/logo.jpg" class="footer-image" alt="FitForce title image">
+            </div>
+        </div>
+
+        <script src="../js/gallery.js"></script>
+
+        <!-- Dark mode script -->
+        <script src="../js/theme.js"></script>
+        
+    </body>
+
+    
+
+</html>

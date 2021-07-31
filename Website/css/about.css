@@ -1,0 +1,9 @@
+/* Change the list style */
+ul.about {
+    list-style-type: disc;
+}
+
+/* Add space after each bullet point */
+li {
+    padding-bottom: 15px;
+}

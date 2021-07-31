@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
+/* Background image for the page */
+body {
+    background-image: url("../images/sitemap.jpg");
+    background-size: cover;
+}
+
+/* SiteMap background and box styling */
+.sitemap-container {
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 70%;
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+}
+
+/* Center the title */
+.title {
+    text-align: center;
+}
+
+/* Edit width of table */
+table {
+    width: 100%;
+}
+
+/* Style table headers and data */
+th, td.map-data {
+    padding: 10px;
+    text-align: start;
+}
+
+/* Table header element styling */
+th {
+    color: rgb(47, 116, 47);
+    font-family: 'Lora', serif;
+    font-size: 30px;
+}
+
+/* Links formatting */
+a {
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(105, 39, 39);
+}
+
+/* Color of link when mouse hover over the link */
+a:hover {
+    color: rgb(177, 247, 177);
+}

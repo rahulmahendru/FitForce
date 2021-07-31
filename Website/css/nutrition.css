@@ -1,0 +1,93 @@
+/* Image map position for labelling */
+.imagemap {
+    position: relative;
+}
+
+/* Image map labels */
+.imagemap-label {
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.6);
+    color: black;
+    padding: 0px 5px 0px 5px;
+}
+
+/* Position of carbs label */
+.carbs-label {
+    position: absolute;
+    top: 500px;
+    left: 200px;
+}
+
+/* Position of protein label */
+.protein-label {
+    position: absolute;
+    top: 550px;
+    left: 700px;
+}
+
+/* position of fats label */
+.fats-label {
+    position: absolute;
+    top: 350px;
+    left: 700px;
+}
+
+/* Position of water label */
+.water-label {
+    position: absolute;
+    top: 750px;
+    left: 100px;
+}
+
+/* Width for weight loss image */
+.weightloss-img {
+    width: 40%;
+}
+
+/* For wider margins */
+.wide-margin {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* block styling for nutritional tool links */
+.tool-link {
+    text-align: center;
+    background-color: coral;
+    text-decoration: none;
+}
+
+/* block styling diet links */
+.diet-link {
+    text-decoration: none;
+    text-align: center;
+    background-color:darkgreen;
+}
+
+/*  Styling nutrition importance grids */
+.nut-grid {
+    color: black;
+    text-align: center;
+    background-color: blanchedalmond;
+}
+
+/* Myths box styling on nutrients page */
+.myth-box {
+    background-color: cornsilk;
+    padding: 10px;
+    margin: 5px;
+}
+
+/* Media feed design */
+.media-feed{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 5px;
+}
+
+/* Column styling for media feed */
+.column {
+    flex: 32%;
+    max-width: 32%;
+    padding: 0 4px;
+}

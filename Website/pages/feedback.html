@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+    <!-- Header Section -->
+    <head>
+        <meta charset="UTF-8">
+
+        <!-- Responsive Viewport -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>FitForce-Feedback</title>
+
+        <!-- CSS Link -->
+        <link rel="stylesheet" href="../css/index.css" id="theme">
+        <link rel="stylesheet" href="../css/feedback.css" id="page-theme">
+
+        <!-- Favicon -->
+        <link rel="icon" href="../images/favicon.jpg">
+
+        <!-- Icons Link -->
+        <script src="https://kit.fontawesome.com/01de70e9b1.js" crossorigin="anonymous"></script>
+    </head>
+
+    <!-- Body Section -->
+    <body>
+
+        <!-- Header Section -->
+        <div class="header-container">
+            
+            <!-- Title -->
+            <div class="title-container">
+                <a href="../index.html">
+                    <img src="../images/logo.jpg" class="logo-image" alt="FitForce title image">
+                </a>
+            </div>
+            
+            <!-- Navigation Menu -->
+            <div class="navbar-container">
+                <nav>
+                    <a href="../index.html" class="nav-item">Home</a>
+                    <a href="./me.html" class="nav-item">About Me</a>
+                    <a href="./workouts.html" class="nav-item">Workouts</a>
+                    <a href="./nutrition.html" class="nav-item">Nutrition</a>
+                    <a href="./gallery.html" class="nav-item">Gallery</a>
+                </nav>
+            </div>
+
+            <!-- Change Theme -->
+            <div class="themeToggle-container">
+                <button class="toggle-button">Dark Mode</button>
+            </div>
+
+        </div>
+
+        <!-- Main Page Section -->
+        <div class="main-page-container">
+
+            <!-- Feedback Form -->
+            <div class="feedback-form">
+                <form action="mailto:u7213186@anu.edu.au?subject=Website_Feedback" method="POST">
+                    <!-- Name Field -->
+                    <label>Name: </label>
+                    <input type="text" name="Name" value=""><br>
+                    <!-- Email Field -->
+                    <label>Email: </label>
+                    <input type="text" name="Email" value=""><br>
+                    <!-- Rating Field -->
+                    <p class="form">How would you rate the website?</p>
+                    <input type="radio" name="rating" value="1">
+                    <label>1</label>
+                    <input type="radio" name="rating" value="2">
+                    <label>2</label>
+                    <input type="radio" name="rating" value="3">
+                    <label>3</label>
+                    <input type="radio" name="rating" value="4">
+                    <label>4</label>
+                    <input type="radio" name="rating" value="5">
+                    <label>5</label><br><br>
+                    <!-- Best on website -->
+                    <p class="form">What did you find most useful on our website?:</p>
+                    <input type="text" name="best" value=""><br>
+                    <!-- Recommendation -->
+                    <p class="form">How likely would you recommend our site to others (5 = Most Likely)?</p>
+                    <input type="radio" name="likely" value="1">
+                    <label>1</label>
+                    <input type="radio" name="likely" value="2">
+                    <label>2</label>
+                    <input type="radio" name="likely" value="3">
+                    <label>3</label>
+                    <input type="radio" name="likely" value="4">
+                    <label>4</label>
+                    <input type="radio" name="likely" value="5">
+                    <label>5</label><br><br>
+                    <!-- Feedback Field-->
+                    <p class="form">Please provide your feedback:</p>
+                    <textarea rows="5" cols="30" name="Feedback"></textarea><br><br>
+                    <!-- Clear and Submit Buttons-->
+                    <button type="reset" class="button">Clear</button>
+                    <button type="submit" class="button">Submit</button>
+                </form>
+            </div>
+        </div>
+
+        <!-- Footer Container -->
+        <div class="footer-container">
+            <div class="flex-container footer">
+                <!-- Footer Menu -->
+                <table class="footer-table" id="table-footer">
+                    <tr>
+                        <td><a href="./feedback.html" class="fnav-item">Feedback</a></td>
+                        <td><a href="https://www.instagram.com/bodybuildinghubb/" class="fnav-item" target="_blank"><i class="fab fa-instagram fa-lg white"></i>Instagram</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="./sitemap.html" class="fnav-item">Site Map</a></td>
+                        <td><a href="https://www.facebook.com/Health" class="fnav-item" target="_blank"><i class="fab fa-facebook fa-lg white"></i>Facebook</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="./sourcelog.html" class="fnav-item">Source Log</a></td>
+                        <td><a href="https://in.pinterest.com/gymguider/_created/" class="fnav-item" target="_blank"><i class="fab fa-pinterest fa-lg white"></i>Pinterest</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="./about.html" class="fnav-item">About My Site</a></td>
+                        <td></td>
+                    </tr>
+                </table>
+
+                <!-- Footer Logo  -->
+                <img src="../images/logo.jpg" class="footer-image" alt="FitForce title image">
+            </div>
+        </div>
+
+        <!-- Dark mode script -->
+        <script src="../js/theme.js"></script>
+    </body>
+
+</html>

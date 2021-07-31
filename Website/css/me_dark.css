@@ -1,0 +1,54 @@
+/* Font Import for name introduction */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+
+/* Image width */
+img {
+    width: 350px;
+}
+
+/* Left margin for first image */
+.me-image {
+    margin-left: 50px;
+}
+
+/* Right margin for second image */
+.me-image2 {
+    margin-right: 50px;
+}
+
+/* custom width for journey flowchart */
+.journey {
+    width: 100%;
+}
+
+/* Styling the name introduction */
+.name-intro {
+    font-size: 40px;
+    font-family: 'Dancing Script', cursive;
+    color: #cf6363;
+}
+
+/* Division Resizing and styling*/
+.div-text {
+    width: 45%;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+/* Color and margin for intro division */
+.div-intro {
+    margin-right: 50px;
+    background-color: rgba(69, 114, 114, 0.966);
+}
+
+/* Color and margin for passion division */
+.div-passion {
+    margin-left: 50px;
+    background-color: rgba(102, 153, 102, 0.3);
+}
+
+/* Color and margin for mission division */
+.div-mission {
+    width: 60%;
+    background-color: rgba(153, 102, 153, 0.3);
+}

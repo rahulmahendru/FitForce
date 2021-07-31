@@ -1,0 +1,281 @@
+/* Import fonts */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Assistant&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+/* ----- Tag Styling ----- */
+
+/* Heading 1 text styling - size, font and colors */
+h1 {
+    font-size: 60px;
+    letter-spacing: 2px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+/* White color for heading and in general */
+h1.white, .white {
+    color: white;
+}
+
+/* White box heading, Used in block tiles on homepage */
+h1.box {
+    width: 50%;
+    margin: 0 auto;
+    color: black;
+    background-color: white;
+    margin-top: 25%;
+    padding: 20px;
+}
+
+/* h2 tag styling */
+h2 {
+    font-size: 40px;
+    letter-spacing: 2px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+/* Paragraph Text Styling */ 
+p, li {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+}
+
+/* Resize images to cover 100% horizontal width */
+img {
+    width: 100%;
+}
+
+/* Removing text decoration from links */
+a {
+    text-decoration: none;
+}
+
+/* ------- Header Styling --------- */
+
+/* Styling the header container */
+.header-container {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: fixed;
+    border-bottom: 1px solid rgba(58, 104, 163, 0.2);
+    background-color: white;
+    margin-top: -10px;
+    margin-left: -10px;
+    z-index: 1;
+}
+
+/* Resizing the container for the title image */
+.title-container {
+    width: 25%;
+    margin-left: 10%;
+}
+
+/* Resizing the title image */
+.logo-image {
+    width: 70%;
+}
+
+/* Resizing and positioning the navigation menu */
+.navbar-container {
+    width: 50%;
+    margin-right: 10%;
+    margin-left: auto;
+    text-align: center;
+}
+
+/* Styling each navigation item */
+a.nav-item {
+    font-size: 22px;
+    padding: 20px;
+    text-decoration: none;
+    color: #3a68a3;
+    font-family: 'Assistant', sans-serif;
+    text-transform: uppercase;
+}
+
+/* Recoloring a menu item when mouse hover over it */
+a.nav-item:hover, a.fnav-item:hover {
+    color: #b67782;
+}
+
+/* Position of dark mode toggle button */
+.themeToggle-container {
+    text-align: start;
+    width: 10%;
+}
+
+/* Styling dark mode toggle button */
+button.toggle-button {
+    border: none;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    padding: 10px 20px;
+    font-family: 'Assistant', sans-serif;
+    border-radius: 30px;
+}
+
+/* On hovering over toggle theme button */
+button.toggle-button:hover {
+    background-color: rgb(56, 55, 55);
+    cursor: pointer;
+}
+
+/* -------- Footer Styling ------------ */
+/* Main footer container */
+.footer-container {
+    margin: 50px -10px -10px -10px;
+    padding: 20px;
+    background-color: rgb(51, 51, 51);
+}
+
+/* Inner Footer Container */
+.footer {
+    width: 75%;
+    margin: 0 auto;
+}
+
+/* Footer menu item */
+a.fnav-item {
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+    font-family: Optima, sans-serif;
+}
+
+/* Footer Logo */
+.footer-image {
+    width: 15%;
+}
+
+/* Style the menu in the footer */
+.footer-table {
+    width: 40%;
+    list-style-type: none;
+}
+
+/* ------ Main Page Styling ----------*/
+
+/* Sizing and positioning the main page content  */
+.main-page-container {
+    width: 75%;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+
+/* --- Special Display Settings --- */
+
+/* Row wise flex container */
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Make a grid of four columns */
+.grid-container-4 {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 20px;
+}
+
+/* Make a grid of three columns */
+.grid-container-3 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 20px;
+}
+
+/* Style the Grid items */
+.grid-item {
+    font-size: 30px;
+    color: white;
+    text-align: right;
+    padding: 100px 20px;
+    border-radius: 20px;
+}
+
+/* black color */
+.grid-item .black {
+    color: black;
+}
+
+/* Division container for text sections, adds space before each section */
+.div-container {
+    margin-top: 50px;
+}
+
+/* Quote Box */
+.quote-container {
+    text-align: center;
+    width: 40%;
+    padding: 20px;
+    background-image: url("../images/quote.jpg");
+    background-size: cover;
+    font-style: italic;
+    color: white;
+}
+
+/* Block Tile Styling for home page */
+.menu-block-tile {
+    width: 50%;
+    height:400px;
+}
+
+/* Hover effect on block tile on home page */
+.menu-block-tile:hover {
+    opacity: 0.5;
+}
+
+/* Background image for workout block tile */
+.wbg {
+    background-image: url(../images/sitemap.jpg);
+    background-size: cover;
+}
+
+/* Background image for nutrition block tile */
+.fbg {
+    background-image: url(../images/food_bg.jpg);
+    background-size: cover;
+}
+
+/* Menu Styling for block tile */
+a.menu-block-tile {
+    text-decoration: none;
+    text-align: center;
+}
+
+/* Text container on home page */
+.information {
+    width: 50%;
+}
+
+/* Container for the 404 error message */
+.error404-container {
+    text-align: center;
+    width: 50%;
+    height: 300px;
+    margin: 0 auto;
+    margin-top: 60px;
+    background-color: #b67782;
+    border-radius: 30px;
+    padding: 20px;
+}
+
+/* Footer social icons styling */
+i {
+    padding: 10px;
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+    font-family: Optima, sans-serif;
+}
+
+/* Remove bullets */
+ul {
+    list-style-type: none;
+}
